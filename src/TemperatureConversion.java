@@ -22,8 +22,8 @@ public class TemperatureConversion {
 
         System.out.println("24 degrees Celsius are " + temperatureInCelsius(celsius = 24) + " degrees Fahrenheit");
 
-        double fahr = 35;
-        System.out.println((fahr) + ( " Celsius are " ) + (fahrenheitInCelsius(fahr)) + " in Fahrenheit" );
+        double fahr = 22;
+        System.out.println((fahr) + ( " Fahrenheit are " ) + (fahrenheitInCelsius(fahr)) + " in Celsius" );
     }
     public static double temperatureInCelsius (double celsius) {
         return celsius * 1.8 + 32;
