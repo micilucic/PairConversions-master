@@ -2,7 +2,7 @@ package fh.campus02;
 
 public class DistanceConversion {
     public static void main(String[] args) {
-        int kilometers = 2;
+        int kilometers = 20;
         int miles = 5;
 
         System.out.println(kilometers + " kilometers are " + kilometersToMiles(kilometers) + " miles");
